@@ -11,8 +11,8 @@ export default function Logo({ className = "w-10 h-10" }: { className?: string }
             <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                     <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stopColor="#0070F3" />
-                        <stop offset="100%" stopColor="#64748b" />
+                        <stop offset="0%" stopColor="#be123c" />
+                        <stop offset="100%" stopColor="#e11d48" />
                     </linearGradient>
                 </defs>
                 
@@ -26,7 +26,7 @@ export default function Logo({ className = "w-10 h-10" }: { className?: string }
                 {/* Pulsing Data Rings */}
                 <motion.circle 
                     cx="50" cy="50" r="35" 
-                    stroke="#0070F3" 
+                    stroke="#be123c" 
                     strokeWidth="0.5"
                     strokeDasharray="4 8"
                     animate={{ rotate: 360 }}

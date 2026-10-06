@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "Transglologistics Logistics",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200",
+        url: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1200",
         width: 1200,
         height: 630,
         alt: "Transglologistics Logistics",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Transglologistics | Global Freight & Package Tracking",
     description: "Global logistics, express air transit, ocean freight, and real-time package tracking with Transglologistics.",
-    images: ["https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200"],
+    images: ["https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1200"],
   },
   robots: {
     index: true,

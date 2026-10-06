@@ -29,7 +29,7 @@ export default function ResourcesPage() {
              {/* Simple Header */}
             <div className="relative pt-48 pb-32 bg-slate-900 overflow-hidden">
                 <div className="absolute inset-0 opacity-20 pointer-events-none">
-                    <Image src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000" alt="World Map" fill className="object-cover" />
+                    <Image src="https://images.unsplash.com/photo-1508873696983-2df57046475a?q=80&w=2000" alt="World Map" fill className="object-cover" />
                 </div>
                 <div className="container mx-auto px-6 max-w-7xl relative z-10 text-center text-white">
                     <motion.div
@@ -88,7 +88,7 @@ export default function ResourcesPage() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-32">
                     <div className="bg-slate-50 p-16 rounded-3xl border border-slate-100 relative overflow-hidden shadow-xl group">
                         <div className="absolute top-0 right-0 w-64 h-64 opacity-[0.05] grayscale pointer-events-none group-hover:scale-110 transition-transform duration-700">
-                            <Image src="https://images.unsplash.com/photo-1558494949-ef010cbdcc4b?q=80&w=2000" alt="Tech" fill className="object-cover" />
+                            <Image src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2000" alt="Tech" fill className="object-cover" />
                         </div>
                         <div className="relative z-10">
                             <h3 className="text-3xl font-black mb-6 text-slate-900 tracking-tight">Support Team</h3>
@@ -103,7 +103,7 @@ export default function ResourcesPage() {
 
                     <div className="bg-primary p-16 rounded-3xl relative overflow-hidden shadow-2xl group">
                         <div className="absolute top-0 right-0 w-64 h-64 opacity-[0.1] grayscale pointer-events-none group-hover:scale-110 transition-transform duration-700">
-                            <Image src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2000" alt="Logistics" fill className="object-cover" />
+                            <Image src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?q=80&w=2000" alt="Logistics" fill className="object-cover" />
                         </div>
                         <div className="relative z-10">
                             <h3 className="text-3xl font-black mb-6 text-white tracking-tight">Downloads Center</h3>
@@ -124,16 +124,16 @@ export default function ResourcesPage() {
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 h-64">
                    <div className="relative rounded-2xl overflow-hidden shadow-xl">
-                      <Image src="https://images.unsplash.com/photo-1566576721346-d4a3b4eaad5b?q=80&w=1000" alt="Team" fill className="object-cover" />
+                      <Image src="https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=1000" alt="Team" fill className="object-cover" />
                    </div>
                    <div className="relative rounded-2xl overflow-hidden shadow-xl">
-                      <Image src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=1000" alt="Truck" fill className="object-cover" />
+                      <Image src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=1000" alt="Truck" fill className="object-cover" />
                    </div>
                    <div className="relative rounded-2xl overflow-hidden shadow-xl">
-                      <Image src="https://images.unsplash.com/photo-1569154941061-e231b4725ef1?q=80&w=1000" alt="Plane" fill className="object-cover" />
+                      <Image src="https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?q=80&w=1000" alt="Plane" fill className="object-cover" />
                    </div>
                    <div className="relative rounded-2xl overflow-hidden shadow-xl">
-                      <Image src="https://images.unsplash.com/photo-1494412519320-aa613dfb7738?q=80&w=1000" alt="Ship" fill className="object-cover" />
+                      <Image src="https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?q=80&w=1000" alt="Ship" fill className="object-cover" />
                    </div>
                 </div>
             </div>

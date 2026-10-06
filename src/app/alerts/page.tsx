@@ -37,7 +37,7 @@ export default function AlertsPage() {
     const systems = [
         { name: "Live Tracking System", status: "Working", color: "bg-emerald-500" },
         { name: "Ground Fleet Tracking", status: "Working", color: "bg-emerald-500" },
-        { name: "Air Cargo Updates", status: "Perfect", color: "bg-blue-500" },
+        { name: "Air Cargo Updates", status: "Perfect", color: "bg-rose-500" },
         { name: "Warehouse Sorting", status: "Maintenance", color: "bg-amber-500" },
     ];
 
@@ -91,7 +91,7 @@ export default function AlertsPage() {
                             >
                                 <div className={`w-20 h-20 rounded-sm flex items-center justify-center shrink-0 border ${
                                     alert.type === 'warning' ? 'bg-red-50 border-red-100 text-red-500' : 
-                                    alert.type === 'info' ? 'bg-blue-50 border-blue-100 text-blue-500' : 'bg-emerald-50 border-emerald-100 text-emerald-500'
+                                    alert.type === 'info' ? 'bg-rose-50 border-rose-100 text-rose-500' : 'bg-emerald-50 border-emerald-100 text-emerald-500'
                                 }`}>
                                     <alert.icon size={36} />
                                 </div>
@@ -104,7 +104,7 @@ export default function AlertsPage() {
                                     <div className="flex items-center gap-6">
                                         <div className={`text-[10px] font-black uppercase tracking-[0.3em] px-4 py-2 rounded-sm border ${
                                             alert.impact === 'High' ? 'bg-red-50 border-red-100 text-red-600' : 
-                                            alert.impact === 'Low' ? 'bg-blue-50 border-blue-100 text-blue-600' : 'bg-emerald-50 border-emerald-100 text-emerald-600'
+                                            alert.impact === 'Low' ? 'bg-rose-50 border-rose-100 text-rose-600' : 'bg-emerald-50 border-emerald-100 text-emerald-600'
                                         }`}>
                                             IMPACT: {alert.impact}
                                         </div>
