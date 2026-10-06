@@ -88,7 +88,7 @@ export default function ResourcesPage() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-32">
                     <div className="bg-slate-50 p-16 rounded-3xl border border-slate-100 relative overflow-hidden shadow-xl group">
                         <div className="absolute top-0 right-0 w-64 h-64 opacity-[0.05] grayscale pointer-events-none group-hover:scale-110 transition-transform duration-700">
-                            <Image src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2000" alt="Tech" fill className="object-cover" />
+                            <Image src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2000" alt="Customer Support Team" fill className="object-cover" />
                         </div>
                         <div className="relative z-10">
                             <h3 className="text-3xl font-black mb-6 text-slate-900 tracking-tight">Support Team</h3>
@@ -103,7 +103,7 @@ export default function ResourcesPage() {
 
                     <div className="bg-primary p-16 rounded-3xl relative overflow-hidden shadow-2xl group">
                         <div className="absolute top-0 right-0 w-64 h-64 opacity-[0.1] grayscale pointer-events-none group-hover:scale-110 transition-transform duration-700">
-                            <Image src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?q=80&w=2000" alt="Logistics" fill className="object-cover" />
+                            <Image src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2000" alt="Logistics Software and Digital Assets" fill className="object-cover" />
                         </div>
                         <div className="relative z-10">
                             <h3 className="text-3xl font-black mb-6 text-white tracking-tight">Downloads Center</h3>

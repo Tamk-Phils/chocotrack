@@ -42,7 +42,7 @@ export default function UsagePage() {
             id: "warehouse",
             title: "Warehousing & Storage",
             desc: "Strategically located climate-controlled storage hubs with real-time inventory management and pick-and-pack fulfillment.",
-            img: "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?q=80&w=1000",
+            img: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1000",
             icon: Box,
             features: ["24/7 Monitored Warehousing", "Automated Inventory Scans", "Cross-Docking & Fulfillment"]
         },

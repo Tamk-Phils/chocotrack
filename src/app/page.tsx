@@ -368,7 +368,7 @@ export default function Home() {
               { title: "Road Transport", desc: "Nationwide ground shipping with continuous GPS tracking.", icon: Truck, img: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=800", href: "/usage#road" },
               { title: "Ocean Freight", desc: "International maritime container shipping with customs clearance.", icon: Ship, img: "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?q=80&w=800", href: "/usage#ocean" },
               { title: "Rail Freight", desc: "Eco-friendly long-distance bulk rail transit solutions.", icon: Train, img: "https://images.unsplash.com/photo-1566933293069-b55c7f326dd4?q=80&w=800", href: "/usage#rail" },
-              { title: "Warehousing", desc: "Strategic climate-controlled storage & inventory fulfillment.", icon: Box, img: "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?q=80&w=800", href: "/usage#warehouse" },
+              { title: "Warehousing", desc: "Strategic climate-controlled storage & inventory fulfillment.", icon: Box, img: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800", href: "/usage#warehouse" },
               { title: "Packaging", desc: "Industrial protective packaging & custom crating options.", icon: Package, img: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?q=80&w=800", href: "/usage#packaging" },
               { title: "Logistics Solution", desc: "End-to-end supply chain integration & route optimization.", icon: Layers, img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800", href: "/usage#logistics" },
               { title: "Cargo Insurance", desc: "Full transit policy coverage protecting high-value shipments.", icon: ShieldCheck, img: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=800", href: "/usage#insurance" },
@@ -444,7 +444,7 @@ export default function Home() {
           <motion.div {...staggerRevealProps(0.3)}>
             <div className="relative h-[450px] rounded-[2rem] overflow-hidden border border-slate-700 shadow-2xl group">
               <img
-                src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?q=80&w=1200"
+                src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=1200"
                 alt="Transglologistics Logistics Excellence"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
               />
@@ -520,13 +520,13 @@ export default function Home() {
                 date: "Aug 18, 2026", 
                 title: "How Satellite GPS is Revolutionizing Parcel Tracking", 
                 category: "Technology",
-                img: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=800"
+                img: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=800"
               },
               { 
                 date: "Aug 10, 2026", 
                 title: "Sustainable Shipping: Reducing Carbon Footprints in Freight", 
                 category: "Sustainability",
-                img: "https://images.unsplash.com/photo-1566933293069-b55c7f326dd4?q=80&w=800"
+                img: "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=800"
               }
             ].map((article, i) => (
               <motion.div 
